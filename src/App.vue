@@ -1,7 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+// Lógica de la Landing Page de AI-ToDu
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="landing-page">
+    <!-- Aquí irá el contenido -->
+  </div>
 </template>
+
+<style scoped>
+</style>
