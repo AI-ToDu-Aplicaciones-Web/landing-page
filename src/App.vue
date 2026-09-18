@@ -49,6 +49,20 @@
         </div>
       </section>
 
+      <section id="soluciones" class="segments container">
+        <h2>Hecho para quienes mueven la economía</h2>
+        <div class="segments-grid">
+          <div class="segment-card">
+            <h3>Para Dueños y Gerentes</h3>
+            <p>Dashboard directivo accesible desde tu celular.</p>
+          </div>
+          <div class="segment-card">
+            <h3>Para Operarios de Almacén</h3>
+            <p>Interfaces rápidas y búsqueda ágil de productos.</p>
+          </div>
+        </div>
+      </section>
+
     </main>
 
   </div>
