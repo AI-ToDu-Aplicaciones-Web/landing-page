@@ -72,7 +72,14 @@
       </section>
 
     </main>
-
+    <footer>
+      <div class="container footer-content">
+        <p>&copy; 2026 IA-INNOVATION (Proyecto Académico). Todos los derechos reservados.</p>
+        <div class="legal-links">
+          <a href="/terminos">Términos</a> | <a href="/privacidad">Privacidad</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
