@@ -59,7 +59,15 @@
           <div class="segment-card">
             <h3>Para Operarios de Almacén</h3>
             <p>Interfaces rápidas y búsqueda ágil de productos.</p>
+
           </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container">
+          <h2>¿Listo para modernizar tu cadena de suministro?</h2>
+          <a href="#" class="btn btn-primary">Crea tu cuenta ahora</a>
         </div>
       </section>
 
@@ -76,3 +84,4 @@
 .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 30px; }
 .feature-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
 </style>
+
