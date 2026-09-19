@@ -90,5 +90,10 @@
 .hero-container { display: flex; align-items: center; gap: 20px; margin-top: 50px; }
 .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 30px; }
 .feature-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+@media (max-width: 768px) {
+  .hero-container { flex-direction: column; text-align: center; }
+  .features-grid, .segments-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+}
 </style>
 
