@@ -1,5 +1,12 @@
 <script setup>
-// Lógica de la Landing Page de AI-ToDu
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+  alert('Menú responsivo activado: ' + (isMenuOpen.value ? 'Abierto' : 'Cerrado'));
+};
 </script>
 
 <template>
@@ -15,6 +22,7 @@
           <a href="#" class="btn btn-primary">Prueba Gratis</a>
         </div>
       </div>
+      <button class="mobile-menu-btn" @click="toggleMenu" v-show="false">☰</button>
     </header>
     <main>
       <section class="hero">
