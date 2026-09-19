@@ -1,26 +1,33 @@
 <script setup>
-// Lógica de la Landing Page de AI-ToDu
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
 
 <template>
   <div class="landing-page">
-    <!-- Aquí irá el contenido -->
+    <!-- navigation bar -->
+    <header>
+      <div class="container nav-container">
+        <div class="logo">AI-ToDu</div>
+        <nav class="nav-links">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#soluciones">Soluciones</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="#" class="btn btn-primary">Prueba Gratis</a>
+        </div>
+      </div>
+    </header>
   </div>
 </template>
 
 <style scoped>
-/* Diseño Responsive para Móviles */
-@media (max-width: 768px) {
-  .nav-container { flex-direction: column; }
-  .nav-links { display: none; flex-direction: column; width: 100%; text-align: center; }
-  .nav-links.active { display: flex; }
-  .nav-links a { margin: 10px 0; }
-  .hero-container { flex-direction: column; text-align: center; }
-  .hero-img { margin-top: 30px; }
-  .features-grid { grid-template-columns: 1fr; }
-  .mobile-menu-btn { display: block; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--primary-blue); }
-}
-@media (min-width: 769px) {
-  .mobile-menu-btn { display: none; }
-}
+/* Styles */
+.nav-container { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+.logo { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: bold; color: var(--primary-blue); }
+.nav-links a { margin: 0 15px; text-decoration: none; color: var(--text-dark); }
 </style>
