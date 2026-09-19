@@ -33,3 +33,11 @@ body {
   color: var(--white);
   border: none;
 }
+
+.cta-section {
+  background: var(--primary-blue);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 50px;
+}
